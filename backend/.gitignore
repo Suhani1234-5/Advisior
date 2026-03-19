@@ -1,0 +1,89 @@
+#  Python Bytecode
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+#  Virtual Environment
+
+venv/
+.env/
+.env
+.venv/
+env/
+
+#  Environment Variables (IMPORTANT)
+
+.env.*
+!.env.example
+
+#  Logs
+
+*.log
+logs/
+
+#  SQLite DB (if used locally)
+
+*.sqlite3
+*.db
+
+#  FastAPI / Uvicorn
+
+*.pid
+*.sock
+
+#  Distribution / Packaging
+
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+#  Testing / Coverage
+
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+pytest_cache/
+
+#  IDE / Editor
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+#  OS Files
+
+.DS_Store
+Thumbs.db
+
+#  Docker (optional)
+
+docker-compose.override.yml
+
+#  Node (if React inside same repo)
+
+node_modules/
+
+#  Misc
+
+*.bak
+*.tmp
+*.temp
+routes/
+services/
