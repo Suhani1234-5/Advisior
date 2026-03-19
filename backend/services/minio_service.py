@@ -3,8 +3,8 @@ import mimetypes
 
 client = Minio(
     "localhost:9000",
-    access_key="admin",
-    secret_key="suhani523",
+    access_key="",
+    secret_key="",
     secure=False
 )
 
