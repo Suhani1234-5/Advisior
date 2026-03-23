@@ -1,0 +1,74 @@
+[
+  {
+    "crop": "chilli",
+    "disease": "Phytophthora root rot",
+    "symptoms": ["root rot", "wilt"],
+    "symptom_text": "plants show root rot and wilting symptoms",
+    "search_keywords": ["root rot", "wilting", "plant collapse"],
+    "pathogen": "Phytophthora capsici",
+    "affected_part": ["roots"],
+    "disease_context": "Soil-borne oomycete diseases thrive in poorly drained soils and spread through waterlogged conditions.",
+    "severity_hint": "severe in waterlogged soils, can wipe out entire fields",
+    "confusion_with": ["Fusarium root rot", "nutrient deficiency"]
+  },
+  {
+    "crop": "chilli",
+    "disease": "Basal stem rot",
+    "symptoms": ["small brown round sclerotia", "white mycelium on stem base"],
+    "symptom_text": "small brown sclerotia and white fungal mycelium appear at the stem base",
+    "search_keywords": ["stem rot", "collar rot", "fungal sclerotia"],
+    "pathogen": "Sclerotium rolfsii",
+    "affected_part": ["stem base"],
+    "disease_context": "Fungal diseases caused by sclerotia persist in soil and infect plants at the collar region under warm humid conditions.",
+    "severity_hint": "kills plants rapidly at the collar region",
+    "confusion_with": ["Rhizoctonia stem rot", "mechanical stem injury"]
+  },
+  {
+    "crop": "chilli",
+    "disease": "Bacterial wilt",
+    "symptoms": ["wilting", "stem browning", "bacterial ooze"],
+    "symptom_text": "plant shows wilting, stem browning and sticky bacterial ooze from stem",
+    "search_keywords": ["plant dying", "leaves drooping", "sudden wilt"],
+    "pathogen": "Ralstonia solanacearum",
+    "affected_part": ["stem", "vascular system"],
+    "disease_context": "Bacterial diseases spread through water, insects, and contaminated tools and develop quickly in warm humid conditions.",
+    "severity_hint": "can cause rapid plant death if not treated early",
+    "confusion_with": ["Fusarium wilt", "water stress"]
+  },
+  {
+    "crop": "chilli",
+    "disease": "Anthracnose",
+    "symptoms": ["black sunken lesion"],
+    "symptom_text": "black sunken lesions appear on fruits and stems",
+    "search_keywords": ["fruit rot", "black spots", "sunken lesions"],
+    "pathogen": "Colletotrichum sp.",
+    "affected_part": ["fruits", "stems"],
+    "disease_context": "Anthracnose fungi spread through infected plant debris and rain splash, causing fruit rot and stem lesions.",
+    "severity_hint": "major post-harvest loss, reduces market value",
+    "confusion_with": ["Alternaria fruit spot", "sunscald"]
+  },
+  {
+    "crop": "chilli",
+    "disease": "Viral disease",
+    "symptoms": ["dwarfing of younger leaves"],
+    "symptom_text": "younger leaves show dwarfing and stunted growth",
+    "search_keywords": ["leaf curling", "stunted growth", "yellow mosaic"],
+    "pathogen": "Unknown viral pathogen",
+    "affected_part": ["leaves"],
+    "disease_context": "Viral diseases are transmitted by insect vectors like aphids and thrips, leading to stunted growth and leaf distortion.",
+    "severity_hint": "reduces yield and quality, persists across seasons",
+    "confusion_with": ["nutrient deficiency", "herbicide injury"]
+  },
+  {
+    "crop": "chilli",
+    "disease": "Root knot nematode",
+    "symptoms": ["galls on roots"],
+    "symptom_text": "roots develop galls and knots due to nematode infestation",
+    "search_keywords": ["root galls", "poor growth", "nematode damage"],
+    "pathogen": "Meloidogyne sp.",
+    "affected_part": ["roots"],
+    "disease_context": "Nematode infestations cause root galls, reducing nutrient uptake and plant vigor, especially in sandy soils.",
+    "severity_hint": "chronic yield loss, plants remain stunted",
+    "confusion_with": ["Phytophthora root rot", "nutrient deficiency"]
+  }
+]
